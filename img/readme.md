@@ -1,4 +1,5 @@
+ background images in HD and 4k versions
 
-/ background images in HD and 4k versions
-/ png transparent graphics
-/ svg UI elements
+ png transparent graphics
+
+ svg UI elements
