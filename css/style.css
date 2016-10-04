@@ -1,8 +1,6 @@
 body {
     background-color: #23222A;
 }
-
-
 h1 {
 	color: white;
 	font-family: Courier New;
@@ -13,12 +11,11 @@ pre{
 }
 
 #logo {
-	margin-top: 10%;
-	margin-left:10%;  
+	margin-top: 20px;
+	margin-left:20px;  
 	width: 48px;
 	height: 47px;
 }
-
 
 #logo8 { 
 	fill: #706F74;
@@ -36,12 +33,9 @@ svg:hover #logo8 {
 }
 
 .container{
-	margin:10% auto;
-
+	margin:15% auto;
 	text-align: center;
-	width:100%;
-	
-}
+	}
 
 .btn,
 .btn:link,
