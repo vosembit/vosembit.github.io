@@ -2,3 +2,75 @@ body {
     background-color: #23222A;
 }
 
+
+h1 {
+	color: white;
+	font-family: Courier New;
+    font-size:24px;
+}
+pre{
+	color:white;
+}
+
+#logo {
+	margin-top: 10%;
+	margin-left:10%;  
+	width: 48px;
+	height: 47px;
+}
+
+
+#logo8 { 
+	fill: #706F74;
+	transition: 1s; 
+	}
+	
+svg:hover #logo8 { 
+	fill: #FFFFFF; 
+}
+
+#tagline {
+    position: fixed;
+	right: 20%;
+	bottom:30%;
+}
+
+.container{
+	margin:10% auto;
+
+	text-align: center;
+	width:100%;
+	
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+    border-radius: 0.3em;
+    border-style: solid;
+    border-width: 0px;
+    color: #706F74;
+    display: inline-block;
+    font-family: Courier New;;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    padding: 1em 0.75em;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: color 0.4s, background-color 0.4s, border 0.4s;
+    transition: color 0.4s, background-color 0.4s, border 0.4s;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #00C9FF;
+    -webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.btn:active {
+    color: #FFFFFF;
+    border: 0px solid #0074D9;
+    -webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
